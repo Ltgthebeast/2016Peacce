@@ -21,7 +21,9 @@ public class Robot extends IterativeRobot {
 
 	public static final ExampleSubsystem exampleSubsystem = new ExampleSubsystem();
 	public static OI oi;
-
+	public static DriveTrain drivetrain = new DriveTrain();
+	public static BunnyEars bunnyears = new BunnyEars();
+	public static ShootControl shooterangle = new ShootControl();
     Command autonomousCommand;
     SendableChooser chooser;
 
